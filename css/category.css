@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700;800;900&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500&display=swap%27');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    margin: 100px;
+    font-size: 25px;
+}
+
+a:hover {
+    color: rgba(190, 160, 100, 1);
+}
+
+h1 { 
+    color: white;
+    font-size:  70px;
+    
+}
+
+.navbar {
+    text-align: center;
+    background-color: rgba(47, 174, 224, 0.7);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+i {
+    font-size: 40px;
+    color: white;
+}
+
+i:hover {
+    color: rgba(190, 160, 100, 1);
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.legumes {
+    background-color: rgba(47, 174, 224, 1);
+}
+
+
