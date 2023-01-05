@@ -1,0 +1,57 @@
+@import 'settings';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  color: white;
+  // font-family: 'Asap', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  // font-family: 'Oswald', sans-serif;
+}
+
+.sect-1 {
+  width: 50dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+  color: #2FAEE0;
+  border-right: 5px solid #BEA064;
+
+  .title {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+      width: 35%;
+    }
+    h1 {
+      font-size: 10rem;
+    }
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: #BEA064;
+  }
+}
+
+.sect-2 {
+  width: 50dvw;
+  height: 100dvh;
+  background-color: #2FAEE0;
+}

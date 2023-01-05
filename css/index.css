@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700;800;900&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.sect-1 {
+  width: 50dvw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 3rem;
+  color: #2FAEE0;
+  border-right: 5px solid #BEA064;
+}
+.sect-1 .title {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.sect-1 .title img {
+  width: 35%;
+}
+.sect-1 .title h1 {
+  font-size: 10rem;
+}
+.sect-1 h2 {
+  font-size: 2.5rem;
+}
+.sect-1 p {
+  font-size: 1.5rem;
+  color: #BEA064;
+}
+
+.sect-2 {
+  width: 50dvw;
+  height: 100dvh;
+  background-color: #2FAEE0;
+}/*# sourceMappingURL=index.css.map */
