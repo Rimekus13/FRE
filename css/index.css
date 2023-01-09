@@ -68,4 +68,24 @@ body {
   width: 50dvw;
   height: 100dvh;
   background-color: #2FAEE0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sect-2 span {
+  border-top: 2px solid white;
+  width: 25%;
+}
+.sect-2 .txt {
+  border-top: none;
 }/*# sourceMappingURL=index.css.map */

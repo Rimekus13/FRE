@@ -22,8 +22,8 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-left: 3rem;
-  color: #2FAEE0;
-  border-right: 5px solid #BEA064;
+  color: $blue;
+  border-right: 5px solid $gold;
 
   .title {
     width: min-content;
@@ -46,12 +46,26 @@ body {
 
   p {
     font-size: 1.5rem;
-    color: #BEA064;
+    color: $gold;
   }
 }
 
 .sect-2 {
   width: 50dvw;
   height: 100dvh;
-  background-color: #2FAEE0;
+  background-color: $blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // gap: 5%;
+
+  span {
+    border-top: 2px solid white;
+    width: 25%;
+  }
+
+  .txt {
+    border-top: none;
+  }
 }
